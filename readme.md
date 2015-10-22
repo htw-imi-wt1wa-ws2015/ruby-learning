@@ -1,7 +1,7 @@
 
 # Rubylearning Project
 
-  [![Build Status](https://travis-ci.org/htw-imi-info3/rubylearning.png?branch=master)](https://travis-ci.org/htw-imi-info3/rubylearning)
+[![Build Status](https://travis-ci.org/htw-imi-wt1wa-ws2015/ruby-learning.svg)](https://travis-ci.org/htw-imi-wt1wa-ws2015/ruby-learning)
 
 This is a project where you can explore the ruby language together.
 Your assignment is to create one file in a group of 2-3 students together
