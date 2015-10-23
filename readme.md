@@ -18,7 +18,8 @@ if you're not sure what that means.
 I want to see contributions of everyone of you in the repository.
 Send me an email with "htw-imi-wt1wa-ws2015/ruby-learning
 " in the subject containing just your github login so I can add you as committer
-to the repository.
+to the repository. **I added admin rights, so each one of you who already has commit rights can 
+add other contributers**
 
 The Idea is to create a file for each concept, e.g.
 
