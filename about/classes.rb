@@ -10,7 +10,7 @@ describe "A Ruby Class" do
     expect(x.class).to eq X
     expect(x.class).not_to eq U
   end
-  it "can have fields (instance variables" do
+  it "can have fields (instance variables)" do
     class Boat
       def name= new_name
         @name = new_name
