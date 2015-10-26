@@ -21,4 +21,18 @@ describe "reading and writing files" do
         expect(content).to eq "Hello world !\n"
         File.delete(file)
     end
+
+    it "should check the existence of a file" do
+        expect(File.exist?(@path)).to be(true)
+    end
+
+    it "should append to a file" do
+        handler = File.open(@path, "a")
+        handler.puts("New line")
+        handler.close
+
+        content = File.read(@path)
+        expect(content).to eq("Hello World\nNew line\n")
+    end
+
 end
