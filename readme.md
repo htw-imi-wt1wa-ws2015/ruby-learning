@@ -18,7 +18,7 @@ if you're not sure what that means.
 I want to see contributions of everyone of you in the repository.
 Send me an email with "htw-imi-wt1wa-ws2015/ruby-learning
 " in the subject containing just your github login so I can add you as committer
-to the repository. **I added admin rights, so each one of you who already has commit rights can 
+to the repository. **I added admin rights, so each one of you who already has commit rights can
 add other contributers**
 
 The Idea is to create a file for each concept, e.g.
@@ -33,14 +33,14 @@ The Idea is to create a file for each concept, e.g.
 | hashes.rb                         | Stefan, Josh            |          |                                                                   |
 | symbols.rb                        | Simon, Matthias         |          |                                                                   |
 | iteration_idioms.rb # each, to    | Tim, Stefan, Konrad     |          |                                                                   |
-| enumerator.rb # esp. map & inject | Moritz                  |          | see http://ruby-doc.org/core-2.2.3/Enumerable.html                |
+| enumerator.rb # esp. map & inject | Moritz, Felix           |          | see http://ruby-doc.org/core-2.2.3/Enumerable.html                |
 | regular_expressions.rb            | Oliver, Ramen           |          |                                                                   |
 | reading_and_writing_files.rb      | Stefan, Michel, Max     |          |                                                                   |
 | blocks_and_yield.rb               | Konstantin  , Sebastian |          | https://github.com/neo/ruby_koans/blob/master/src/about_blocks.rb |
 |                                   |                         |          |                                                                   |
 
 There are a couple of people missing! Just add your name or maybe even find a
-part of ruby that isn't covered yet. 
+part of ruby that isn't covered yet.
 
 (we fill the "Who's working on it" in class, if you're finished pick a file to review and just add your name in the table. Make sure to do
 this quickly to avoid merge conflicts.)
