@@ -23,21 +23,21 @@ add other contributers**
 
 The Idea is to create a file for each concept, e.g.
 
-| File Name                         | Who's working on it     | Reviewer | Notes                                                             |
-|:----------------------------------|:------------------------|:---------|:------------------------------------------------------------------|
-| method_definitions.rb             | Silvio, Maté            |          |                                                                   |
-| control_structures.rb             | Houssein                |          |                                                                   |
-| loops.rb                          | Ludwig, Katia           |          |                                                                   |
-| strings.rb                        | Arian, Lars, Jessica,   |          |                                                                   |
-| arrays.rb                         | Tu, Nadine              |          |                                                                   |
-| hashes.rb                         | Stefan, Josh            |          |                                                                   |
-| symbols.rb                        | Simon, Matthias         |          |                                                                   |
-| iteration_idioms.rb # each, to    | Tim, Stefan, Konrad     |          |                                                                   |
-| enumerator.rb # esp. map & inject | Moritz, Felix           |          | see http://ruby-doc.org/core-2.2.3/Enumerable.html                |
-| regular_expressions.rb            | Oliver, Ramen           |          |                                                                   |
-| reading_and_writing_files.rb      | Stefan, Michel, Max     |          |                                                                   |
-| blocks_and_yield.rb               | Konstantin  , Sebastian |          | https://github.com/neo/ruby_koans/blob/master/src/about_blocks.rb |
-|                                   |                         |          |                                                                   |
+| File Name                         | Who's working on it     | Ready for Review? | Reviewer | Notes                                                             |
+|:----------------------------------|:------------------------|:------------------|:---------|:------------------------------------------------------------------|
+| method_definitions.rb             | Silvio, Maté            | no                |          |                                                                   |
+| control_structures.rb             | Houssein                | no                |          |                                                                   |
+| loops.rb                          | Ludwig, Katia           | no                |          |                                                                   |
+| strings.rb                        | Arian, Lars, Jessica,   | no                |          |                                                                   |
+| arrays.rb                         | Tu, Nadine              | no                |          |                                                                   |
+| hashes.rb                         | Stefan, Josh            | no                |          |                                                                   |
+| symbols.rb                        | Simon, Matthias         | no                |          |                                                                   |
+| iteration_idioms.rb # each, to    | Tim, Stefan, Konrad     | no                |          |                                                                   |
+| enumerator.rb # esp. map & inject | Moritz, Felix           | no                |          | see http://ruby-doc.org/core-2.2.3/Enumerable.html                |
+| regular_expressions.rb            | Oliver, Ramen           | no                |          |                                                                   |
+| reading_and_writing_files.rb      | Stefan, Michel, Max     | no                |          |                                                                   |
+| blocks_and_yield.rb               | Konstantin  , Sebastian | no                |          | https://github.com/neo/ruby_koans/blob/master/src/about_blocks.rb |
+|                                   |                         |                   |          |                                                                   |
 
 There are a couple of people missing! Just add your name or maybe even find a
 part of ruby that isn't covered yet.
