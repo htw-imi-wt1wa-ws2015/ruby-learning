@@ -47,27 +47,32 @@ describe "A Ruby String" do
     string.concat("!")
     expect(string.include?('!')).to eq true
   end
+  
   it "can be trimmed" do
     string = "  i doesn't want blanks at start and end  "
     string.strip!
     expect(string.length).to eq 38
   end
+
   it "can be cutted" do
     string = "0123456789"
     string.slice!(5..-1)
     expect(string.length).to eq 5
   end
+
   it "can be seperated to an array" do
     string = "1 2 3 4 5 6 7 8 9"
     # without arguments strings get split on blanks
     array = string.split
     expect(array.length).to eq 9
   end
+
   it "can be searched" do
     string = "search for something"
     expect(string.include?("something")).to eq true
     expect(string.include?("mouse")).to eq false
   end
+
   it "can be replaced" do
     string = "aaabbbcccdddeeefff"
     string.gsub!('a','X')
