@@ -28,20 +28,20 @@ describe "Method definitions" do
     expect(use_no_return).to eq 1
   end
   
-  it "can have any additional parameters that are indicated by the splat operator" do
-	def have_additional_parameters(x, y, *otherValues)
-	  otherValues
-	end
-	expect(have_additional_parameters(1, 1)). to eq []
-	expect(have_additional_parameters(1, 1, 'a', 'b', 'c')).to eq ['a', 'b', 'c']
+  it "can have any additional parameters that are indicated by the splat operator" do 
+    def have_additional_parameters(x, y, *otherValues)
+      otherValues
+    end
+    expect(have_additional_parameters(1, 1)). to eq []
+    expect(have_additional_parameters(1, 1, 'a', 'b', 'c')).to eq ['a', 'b', 'c']
   end
   
   it "can create a method that's only defined for one object" do
-	a = 'b'
-	def a.one_object_method()
-	  'success'
-	end
-	expect(a.one_object_method).to eq 'success'
-	expect{one_object_method}.to raise_error(NameError)
+    a = 'b'
+    def a.one_object_method()
+      'success'
+    end
+    expect(a.one_object_method).to eq 'success'
+    expect{one_object_method}.to raise_error(NameError)
   end	
 end  
