@@ -16,11 +16,12 @@ describe "Blocks and yield" do
 	#---YIELD------------------------------------------------------
 	
 	def test
-		yield 42
+		result = yield 42
+		result
 	end
 	
   	it "can pass parameters with the yield statement" do  
 		teststring = test {|i| "The answer is #{i}}
 		expect("The answer is 42" == teststring).to eq true
-  end
+  	end
 end
