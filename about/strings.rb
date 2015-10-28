@@ -22,13 +22,13 @@ describe "A Ruby String" do
     expect(sHeight == "NEW STRING").to eq true
   end
 
-  it "can replace lowercase letters with uppercase and returning nil if no changes are made" do
+  it "can replace lowercase letters with uppercase and return nil if no changes are made" do
     sLow = "NEW STRING"
     sHeight = sLow.upcase!
     expect(sHeight.nil?).to eq true
   end
 
-  it "can converted uppercase characters to lowercase and lowercase characters to uppercase" do
+  it "can convert uppercase characters to lowercase and lowercase characters to uppercase" do
     s = "neW StrinG"
     newS = s.swapcase
     expect(newS == "neW StrinG").to eq false
@@ -42,7 +42,7 @@ describe "A Ruby String" do
     expect(t.is_a? String).to eq false
   end
 
-  it "can be connecte to another String" do
+  it "can be connected to another String" do
     string = "it would be nice to have an exclamation point"
     string.concat("!")
     expect(string.include?('!')).to eq true
@@ -54,13 +54,13 @@ describe "A Ruby String" do
     expect(string.length).to eq 38
   end
 
-  it "can be cutted" do
+  it "can be cut" do
     string = "0123456789"
     string.slice!(5..-1)
     expect(string.length).to eq 5
   end
 
-  it "can be seperated to an array" do
+  it "can be separated to an array" do
     string = "1 2 3 4 5 6 7 8 9"
     # without arguments strings get split on blanks
     array = string.split
