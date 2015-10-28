@@ -38,6 +38,7 @@ describe 'Iteration Idioms' do
   end
 
   describe '#times' do
+  # n starts at 0 
     it 'loops n times' do
       count = 0
       10.times { count += 1 }
