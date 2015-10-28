@@ -77,6 +77,12 @@ describe "A Ruby String" do
     string = "aaabbbcccdddeeefff"
     string.gsub!('a','X')
     expect(string.include?('XXX')).to eq true
-   end
+  end
+
+  it "can be multiplied" do
+    string = "muh! "
+    string = string * 3
+    expect(string == "muh! muh! muh! ").to eq true
+  end
 
 end
