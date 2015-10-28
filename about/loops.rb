@@ -6,6 +6,22 @@ describe "Loops in Ruby" do
     end
     expect(x).to eq 10
   end
+  
+  it "can be accomplished with times" do
+  	x = 0
+    10.times do x
+    	x += 1
+    end
+    expect(x).to eq 10
+  end
+  
+  it "can be accomplished with upto" do
+  	x = 0
+    0.upto(9) do x
+    	x += 1
+    end
+    expect(x).to eq 10
+  end
 
   it "can be accomplished with each" do
   	i = 0
