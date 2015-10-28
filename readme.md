@@ -25,7 +25,7 @@ The Idea is to create a file for each concept, e.g.
 
 | File Name                         | Who's working on it     | Ready for Review? | Reviewer | Notes                                                             |
 |:----------------------------------|:------------------------|:------------------|:---------|:------------------------------------------------------------------|
-| method_definitions.rb             | Silvio, Maté            | no                |          |                                                                   |
+| method_definitions.rb             | Silvio, Maté            | yes                |          |                                                                   |
 | control_structures.rb             | Houssein                | no                |          |                                                                   |
 | loops.rb                          | Ludwig, Katia           | yes                | Silvio         | added downto                                                                  |
 | strings.rb                        | Arian, Lars, Jessica,   | no                |          |                                                                   |
