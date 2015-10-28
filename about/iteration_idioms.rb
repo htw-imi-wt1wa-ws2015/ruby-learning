@@ -26,7 +26,7 @@ describe 'Iteration Idioms' do
     # #downto is the same thing just downwards.
     it 'loops from a to b' do
       count = 0
-      5.upto(10) do |n|
+      5.upto(10) do
         count += 1
       end
       expect(count).to eq 6
