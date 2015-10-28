@@ -35,4 +35,19 @@ describe "reading and writing files" do
         expect(content).to eq("Hello World\nNew line\n")
     end
 
+    it "opens a file and copies the content to another" do
+        dst = File.new("copy.txt", "w")
+
+        File.open(@path, "r") do |cnt|
+            cnt.each_line do |line|
+                dst.write(line)
+            end
+        end
+
+        dst.close
+        expect(File.read(dst)).to eq("Hello World\nNew line\n")
+
+        File.delete(dst)
+    end
+
 end
