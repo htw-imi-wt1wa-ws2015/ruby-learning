@@ -25,14 +25,14 @@ The Idea is to create a file for each concept, e.g.
 
 | File Name                         | Who's working on it     | Ready for Review? | Reviewer | Notes                                                             |
 |:----------------------------------|:------------------------|:------------------|:---------|:------------------------------------------------------------------|
-| method_definitions.rb             | Silvio, Maté            | yes                |   Max, Stefan       |                                                                   |
+| method_definitions.rb             | Silvio, Maté            | yes                |   Max, Stefan, Katia       |                                                                   |
 | control_structures.rb             | Houssein                | no                |          |                                                                   |
 | loops.rb                          | Ludwig, Katia           | yes                | Silvio, Tim    | added downto / Tim: Removed "upto, downto, each, times" because these are iteration idioms and not "loops". Check iteration_idioms.rb for those. #pedantic                                                        |
 | strings.rb                        | Arian, Lars, Jessica,   | no                |          |                                                                   |
 | arrays.rb                         | Tu, Nadine              | no                |          |                                                                   |
 | hashes.rb                         | Stefan, Josh            | no                |          |                                                                   |
 | symbols.rb                        | Simon, Matthias         | no                |          |                                                                   |
-| iteration_idioms.rb # each, to    | Tim, Stefan, Konrad     | yes                |          |                                                                   |
+| iteration_idioms.rb # each, to    | Tim, Stefan, Konrad     | yes                | Katia,  |                                                                   |
 | enumerator.rb # esp. map & inject | Moritz, Felix           | no                |          | see http://ruby-doc.org/core-2.2.3/Enumerable.html                |
 | regular_expressions.rb            | Oliver, Ramen           | no                |          |                                                                   |
 | reading_and_writing_files.rb      | Stefan, Michel, Max     | yes                |          |                                                                   |

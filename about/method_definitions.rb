@@ -1,5 +1,5 @@
 describe "Method definitions" do
-  it "return a sum from a addFunction" do
+  it "return a sum from an addFunction" do
     class Calculator
       def add_two_numbers(x, y)
         x+y
