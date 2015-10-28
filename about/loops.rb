@@ -39,4 +39,13 @@ describe "Loops in Ruby" do
   	expect(i).to eq 10
   end
 
+	it "can be terminated with break" do
+		x = 0
+		for i in 0..9 do
+			x += 1
+      break
+		end
+		expect(x).to eq 1
+	end
+
 end
