@@ -35,7 +35,7 @@ The Idea is to create a file for each concept, e.g.
 | iteration_idioms.rb # each, to    | Tim, Stefan, Konrad     | yes                | Katia,Lars  |                                                                   |
 | enumerator.rb # esp. map & inject | Moritz, Felix           | no                |          | see http://ruby-doc.org/core-2.2.3/Enumerable.html                |
 | regular_expressions.rb            | Oliver, Ramen           | no                |          |                                                                   |
-| reading_and_writing_files.rb      | Stefan, Michel, Max     | yes                |  Konstantin, Sebastian        |                                                                   |
+| reading_and_writing_files.rb      | Stefan, Michel, Max     | yes                |  Konstantin, Sebastian        | Good selection of examples. Everything worked without errors, no typos found.                                                                   |
 | blocks_and_yield.rb               | Konstantin, Sebastian | yes                |          | https://github.com/neo/ruby_koans/blob/master/src/about_blocks.rb |
 |                                   |                         |                   |          |                                                                   |
 
