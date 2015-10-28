@@ -21,7 +21,7 @@ describe "Blocks and yield" do
 	end
 	
   	it "can pass parameters with the yield statement" do  
-		teststring = test {|i| "The answer is #{i}"}
+		teststring = test_method1 {|i| "The answer is #{i}"}
 		expect("The answer is 42" == teststring).to eq true
   	end
   	
@@ -33,4 +33,5 @@ describe "Blocks and yield" do
     		test_method2 do |argument|
 		expect("Test" == argument).to eq true
   	end
+end
 end
