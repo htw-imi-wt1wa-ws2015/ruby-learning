@@ -23,6 +23,14 @@ describe "Loops in Ruby" do
     expect(x).to eq 10
   end
 
+  it "can be accomplished with downto" do
+    x = 10
+    10.downto(1) do x
+      x -= 1
+    end
+    expect(x).to eq 0
+  end
+
   it "can be accomplished with each" do
   	i = 0
     (0..9).each do
