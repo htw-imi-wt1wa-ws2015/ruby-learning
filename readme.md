@@ -27,7 +27,7 @@ The Idea is to create a file for each concept, e.g.
 |:----------------------------------|:------------------------|:------------------|:---------|:------------------------------------------------------------------|
 | method_definitions.rb             | Silvio, Maté            | no                |          |                                                                   |
 | control_structures.rb             | Houssein                | no                |          |                                                                   |
-| loops.rb                          | Ludwig, Katia           | no                |          |                                                                   |
+| loops.rb                          | Ludwig, Katia           | yes                |          |                                                                   |
 | strings.rb                        | Arian, Lars, Jessica,   | no                |          |                                                                   |
 | arrays.rb                         | Tu, Nadine              | no                |          |                                                                   |
 | hashes.rb                         | Stefan, Josh            | no                |          |                                                                   |
