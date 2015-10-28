@@ -1,4 +1,7 @@
 describe "Blocks and yield" do
+	
+	#---BLOCKS------------------------------------------------------
+	
 	it "can be stored in variables and used on demand" do
 		addition = lambda {|a, b| return a + b }
 
@@ -9,4 +12,15 @@ describe "Blocks and yield" do
 		empty_block = lambda { }
 		expect(empty_block.class.superclass).to eq(Object)
 	end
+	
+	#---YIELD------------------------------------------------------
+	
+	def test
+		yield 42
+	end
+	
+  	it "can pass parameters with the yield statement" do  
+		teststring = test {|i| "The answer is #{i}}
+		expect("The answer is 42" == teststring).to eq true
+  end
 end
