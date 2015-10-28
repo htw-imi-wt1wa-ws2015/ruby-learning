@@ -21,7 +21,7 @@ describe "Blocks and yield" do
 	end
 	
   	it "can pass parameters with the yield statement" do  
-		teststring = test {|i| "The answer is #{i}}
+		teststring = test {|i| "The answer is #{i}"}
 		expect("The answer is 42" == teststring).to eq true
   	end
 end
