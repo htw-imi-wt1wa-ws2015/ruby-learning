@@ -28,7 +28,7 @@ The Idea is to create a file for each concept, e.g.
 | method_definitions.rb             | Silvio, Maté            | yes                |   Max, Stefan, Katia       |                                                                   |
 | control_structures.rb             | Houssein                | no                |          |                                                                   |
 | loops.rb                          | Ludwig, Katia           | yes                | Silvio, Tim, Jessica    | added downto / Tim: Removed "upto, downto, each, times" because these are iteration idioms and not "loops". Check iteration_idioms.rb for those. #pedantic                                                        |
-| strings.rb                        | Arian, Lars, Jessica,   | yes                | Matthias, Simon         | all good. added multiply test                                                                  |
+| strings.rb                        | Arian, Lars, Jessica,   | yes                | Matthias, Simon         | all good. added multiply test, fixed grammar and typos in test descriptions.                                                                  |
 | arrays.rb                         | Tu, Nadine              | no                |          |                                                                   |
 | hashes.rb                         | Stefan, Josh            | no                |          |                                                                   |
 | symbols.rb                        | Simon, Matthias         | no                |          |                                                                   |
