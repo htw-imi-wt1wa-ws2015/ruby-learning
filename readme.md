@@ -30,7 +30,7 @@ The Idea is to create a file for each concept, e.g.
 | loops.rb                          | Ludwig, Katia           | yes                | Silvio, Tim, Jessica    | added downto / Tim: Removed "upto, downto, each, times" because these are iteration idioms and not "loops". Check iteration_idioms.rb for those. #pedantic                                                        |
 | strings.rb                        | Arian, Lars, Jessica,   | yes                | Matthias, Simon         | all good. added multiply test, fixed grammar and typos in test descriptions.                                                                  |
 | arrays.rb                         | Tu, Nadine              | no                |          |                                                                   |
-| hashes.rb                         | Stefan, Josh            | no                |          |                                                                   |
+| hashes.rb                         | Stefan, Josh            | yes               |          |                                                                   |
 | symbols.rb                        | Simon, Matthias         | yes               |  Michel  |                                                                   |
 | iteration_idioms.rb # each, to    | Tim, Stefan, Konrad     | yes                | Katia,Lars  |                                                                   |
 | enumerator.rb # esp. map & inject | Moritz, Felix           | no                |          | see http://ruby-doc.org/core-2.2.3/Enumerable.html                |
