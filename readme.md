@@ -25,7 +25,7 @@ The Idea is to create a file for each concept, e.g.
 
 | File Name                         | Who's working on it     | Ready for Review? | Reviewer | Notes                                                             |
 |:----------------------------------|:------------------------|:------------------|:---------|:------------------------------------------------------------------|
-| method_definitions.rb             | Silvio, Maté            | yes                |          |                                                                   |
+| method_definitions.rb             | Silvio, Maté            | yes                |   Max, Stefan       |                                                                   |
 | control_structures.rb             | Houssein                | no                |          |                                                                   |
 | loops.rb                          | Ludwig, Katia           | yes                | Silvio, Tim    | added downto / Tim: Removed "upto, downto, each, times" because these are iteration idioms and not "loops". Check iteration_idioms.rb for those. #pedantic                                                        |
 | strings.rb                        | Arian, Lars, Jessica,   | no                |          |                                                                   |
