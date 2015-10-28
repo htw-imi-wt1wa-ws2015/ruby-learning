@@ -18,4 +18,40 @@ describe "A Ruby symbol" do
     expect(foo1.id2name).to eq "Hello"
   end
 
+  it 'can be made from strings' do
+    test_string = "Foo"
+    expect(test_string.to_sym).to eq :Foo
+  end
+
+  it 'can have spaces' do
+    sym = :"foo bar baz"
+    expect("foo bar baz".to_sym).to eq sym
+  end
+
+  it 'gets converted to a string when interpolated' do
+    sym = :foo
+    str = "bar #{sym} baz"
+    expect(str).to eq "bar foo baz"
+  end
+
+  it 'can be build with interpolation' do
+    str = "bar"
+    sym = :"foo#{str}baz"
+    expect(sym).to eq :foobarbaz
+  end
+
+  it 'is not a string' do
+    sym = :foo 
+    expect(sym.is_a?(String)).to be_falsy
+    expect(sym.eql?("foo")).to be_falsy
+  end
+
+  it 'can not be concatenated' do
+    expect{:foo + :bar}.to raise_error(NoMethodError)
+  end
+
+  it 'can be created dynamically' do
+    expect(("foo" + "bar").to_sym).to eq :foobar
+  end
+
 end
