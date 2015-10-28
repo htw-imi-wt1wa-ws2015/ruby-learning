@@ -7,38 +7,6 @@ describe "Loops in Ruby" do
     expect(x).to eq 10
   end
   
-  it "can be accomplished with times" do
-  	x = 0
-    10.times do x
-    	x += 1
-    end
-    expect(x).to eq 10
-  end
-  
-  it "can be accomplished with upto" do
-  	x = 0
-    0.upto(9) do x
-    	x += 1
-    end
-    expect(x).to eq 10
-  end
-
-  it "can be accomplished with downto" do
-    x = 10
-    10.downto(1) do x
-      x -= 1
-    end
-    expect(x).to eq 0
-  end
-
-  it "can be accomplished with each" do
-  	i = 0
-    (0..9).each do
-    	i += 1
-    end
-    expect(i).to eq 10
-  end
-
   it "can be accomplished with while" do
   	i = 0
   	while i<10 do
