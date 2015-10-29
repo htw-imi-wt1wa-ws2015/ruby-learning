@@ -23,7 +23,6 @@ describe 'Iteration Idioms' do
   end
 
   describe '#upto' do
-    # #downto is the same thing just downwards.
     it 'loops from a to b' do
       count = 0
       5.upto(10) do
@@ -34,6 +33,20 @@ describe 'Iteration Idioms' do
 
     it 'does not do anything with a > b' do
       5.upto(4) { fail 'should never get here' }
+    end
+  end
+  
+    describe '#downto' do
+    it 'loops from a to b' do
+      count = 0
+      10.downto(5) do
+        count += 1
+      end
+      expect(count).to eq 6
+    end
+    
+    it 'does not do anything with a > b' do
+      5.downto(6) { fail 'should never get here' }
     end
   end
 
