@@ -1,7 +1,7 @@
 describe "A Ruby String" do
   it "can find and count occurrences of a specified string within a given string" do
     s = "This String is given."
-    expect(s.scan(/is/).count).to eq 2
+    expect(s.scan("is").count).to eq 2
   end
 
   it "can replace uppercase letters with lowercase" do
@@ -42,16 +42,38 @@ describe "A Ruby String" do
     expect(t.is_a? String).to eq false
   end
 
+  it "can be extracted to a Substring" do
+    s = "Hi, I'm Mr Meeseeks! Look at me!"
+    # positive numbers start at the beginning of the string, where 0 is the first characters
+    expect(s[0]).to eq "H"
+    # negative numbers start at the end of the string, where -1 is the last characters
+    expect(s[-1]).to eq "!"
+    # two arguments make a starting point and a length
+    expect(s[-11, 4]).to eq "Look"
+    # a range lasts from a character to another character
+    expect(s[4..6]).to eq "I'm"
+    # also the occurrence of a substring can be detected
+    expect(s["Meeseeks"]).to eq "Meeseeks"
+  end
+
+  it "can return the first position of a Substring" do
+    s = "Can do!"
+    # an offset can be passed as a second argument
+    expect(s.index("do")).to eq 4
+  end
+
   it "can be connected to another String" do
     string = "it would be nice to have an exclamation point"
+    newString = string + "!"
     string.concat("!")
+    expect(string).to eq newString
     expect(string.include?('!')).to eq true
   end
-  
+
   it "can be trimmed" do
-    string = "  i doesn't want blanks at start and end  "
+    string = "  i don't want blanks at start and end  "
     string.strip!
-    expect(string.length).to eq 38
+    expect(string.length).to eq 36
   end
 
   it "can be cut" do
@@ -77,6 +99,12 @@ describe "A Ruby String" do
     string = "aaabbbcccdddeeefff"
     string.gsub!('a','X')
     expect(string.include?('XXX')).to eq true
+  end
+
+  it "can be multiplied" do
+    string = "muh! "
+    string = string * 3
+    expect(string == "muh! muh! muh! ").to eq true
   end
 
   it "can be multiplied" do
