@@ -31,7 +31,7 @@ The Idea is to create a file for each concept, e.g.
 | strings.rb                        | Arian, Lars, Jessica    | yes               | Matthias, Simon | all good. added multiply test, fixed grammar and typos in test descriptions. |
 | arrays.rb                         | Tu, Nadine              | no                | Arian       |                                                                   |
 | hashes.rb                         | Stefan, Josh            | yes               |             |                                                                   |
-| symbols.rb                        | Simon, Matthias         | yes               | Michel, Maté | looks good, didn't find any other possible/relevant examples, no failures |
+| symbols.rb                        | Simon, Matthias         | yes               | Michel, Maté, Silvio | looks good, didn't find any other possible/relevant examples, no failures |
 | iteration_idioms.rb # each, to    | Tim, Stefan, Konrad     | yes               | Katia, Lars |                                                                   |
 | enumerator.rb # esp. map & inject | Moritz, Felix           | no                |             | see http://ruby-doc.org/core-2.2.3/Enumerable.html                |
 | regular_expressions.rb            | Oliver, Ramen           | no                |             |                                                                   |
