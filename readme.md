@@ -29,7 +29,7 @@ The Idea is to create a file for each concept, e.g.
 | control_structures.rb             | Houssein                | no                |             |                                                                   |
 | loops.rb                          | Ludwig, Katia           | yes               | Silvio, Tim, Jessica, Arian | added downto / Tim: Removed "upto, downto, each, times" because these are iteration idioms and not "loops". Check iteration_idioms.rb for those. #pedantic |
 | strings.rb                        | Arian, Lars, Jessica    | yes               | Matthias, Simon | all good. added multiply test, fixed grammar and typos in test descriptions. |
-| arrays.rb                         | Tu, Nadine              | no                | Arian       |                                                                   |
+| arrays.rb                         | Tu, Nadine              | no                | Arian, Oliver       |                                                                   |
 | hashes.rb                         | Stefan, Josh            | yes               |             |                                                                   |
 | symbols.rb                        | Simon, Matthias         | yes               | Michel, Maté, Silvio | looks good, didn't find any other possible/relevant examples, no failures |
 | iteration_idioms.rb # each, to    | Tim, Stefan, Konrad     | yes               | Katia, Lars |                                                                   |
