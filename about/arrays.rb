@@ -9,7 +9,7 @@ describe "A Ruby Array" do
     expect(array.length).to eq 5
   end
 
-  it "can get filled" do
+  it "can get filled automatically" do
     expect(Array.new(3, true)).to eq [true, true, true]
   end
 
@@ -35,4 +35,14 @@ describe "A Ruby Array" do
   it "can be reversed" do
     expect(array.reverse!).to eq [5, 4, 3.0, 'two', 1]
   end
+  
+  it "remove last element" do
+    array.pop
+    expect(array).to eq [1, 'two', 3.0, 4]
+  end
+  
+  it "can return all combinations of the elements in two arrays" do
+    expect([1,2,3].product([4,5])).to eq [[1,4],[1,5],[2,4],[2,5],[3,4],[3,5]]
+  end
+  
 end
