@@ -17,6 +17,7 @@ describe "A Ruby Array" do
     expect(array[3]).  to eq 4
     expect(array[100]).to eq nil
     expect(array[-2]). to eq 4
+    expect(array[2..4]). to eq [3.0, 4, 5]
   end
 
   it "can return the first element" do
@@ -43,6 +44,10 @@ describe "A Ruby Array" do
   
   it "can return all combinations of the elements in two arrays" do
     expect([1,2,3].product([4,5])).to eq [[1,4],[1,5],[2,4],[2,5],[3,4],[3,5]]
+  end
+  
+  it "can check whether an array contains any elements at all" do
+    expect(array.empty?). to eq false
   end
   
 end
