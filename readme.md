@@ -26,15 +26,15 @@ The Idea is to create a file for each concept, e.g.
 | File Name                         | Who's working on it     | Ready for Review? | Reviewer    | Notes                                                             |
 |:----------------------------------|:------------------------|:------------------|:------------|:------------------------------------------------------------------|
 | method_definitions.rb             | Silvio, Maté            | yes               | Max, Stefan, Katia, Ramin|                                                                   |
-| control_structures.rb             | Houssein                | no                | Tu, Christina, Nadine            |                                                                   |
+| control_structures.rb             | Houssein                | no                |            |                                                                   |
 | loops.rb                          | Ludwig, Katia           | yes               | Silvio, Tim, Jessica, Arian | added downto / Tim: Removed "upto, downto, each, times" because these are iteration idioms and not "loops". Check iteration_idioms.rb for those. #pedantic |
 | strings.rb                        | Arian, Lars, Jessica    | yes               | Matthias, Simon | all good. added multiply test, fixed grammar and typos in test descriptions. |
-| arrays.rb                         | Tu, Nadine, Christina              | yes               | Arian, Oliver       |                                                                   |
+| arrays.rb                         | Tu, Nadine, Christina   | yes               | Arian, Oliver       |                                                                   |
 | hashes.rb                         | Stefan, Josh            | yes               |             |                                                                   |
 | symbols.rb                        | Simon, Matthias         | yes               | Michel, Maté, Silvio | looks good, didn't find any other possible/relevant examples, no failures |
 | iteration_idioms.rb # each, to    | Tim, Stefan, Konrad     | yes               | Katia, Lars |                                                                   |
 | enumerator.rb # esp. map & inject | Moritz, Felix           | no                |             | see http://ruby-doc.org/core-2.2.3/Enumerable.html                |
-| regular_expressions.rb            | Oliver, Ramin           | yes                |             |                                                                   |
+| regular_expressions.rb            | Oliver, Ramin           | yes               |Tu, Christina, Nadine  |"worked without failures, main test cases are represented"                                                                 |
 | reading_and_writing_files.rb      | Stefan, Michel, Max     | yes               | Konstantin, Sebastian | Good selection of examples. Everything worked without errors, no typos found. |
 | blocks_and_yield.rb               | Konstantin, Sebastian   | yes               | Josh, Stefan            | https://github.com/neo/ruby_koans/blob/master/src/about_blocks.rb |
 |                                   |                         |                   |             |                                                                   |
